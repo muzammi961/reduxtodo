@@ -25,7 +25,6 @@ let addfunc=()=>{
         <>
         <h1>{d.text}</h1>
         <button onClick={()=>dispatch(deletetodo(d.id))}>delete</button>
-        {/* <button onClick={()=>dispatch()}>update</button> */}
         </>
     ))}
 
